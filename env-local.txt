@@ -1,0 +1,12 @@
+# MongoDB Connection
+MONGODB_URI=mongodb://localhost:27017/weapons-management-system
+
+# NextAuth Configuration
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-secret-key-here
+
+# JWT Secret
+JWT_SECRET=your-jwt-secret-here
+
+# App Configuration
+NEXT_PUBLIC_APP_NAME=Weapons Management System
