@@ -1,0 +1,58 @@
+weapons-management-system/
+├── .env.local                 # Environment variables
+├── package.json               # Project dependencies
+├── next.config.js             # Next.js configuration
+├── public/                    # Static assets
+│   └── images/
+│       ├── logo.svg
+│       └── icons/
+├── src/
+│   ├── app/                   # App router pages
+│   │   ├── layout.js
+│   │   ├── page.js            # Home page
+│   │   ├── login/
+│   │   │   └── page.js
+│   │   ├── dashboard/
+│   │   │   └── page.js
+│   │   ├── inventory/
+│   │   │   ├── page.js
+│   │   │   └── [id]/
+│   │   │       └── page.js
+│   │   ├── personnel/
+│   │   │   ├── page.js
+│   │   │   └── [id]/
+│   │   │       └── page.js
+│   │   ├── maintenance/
+│   │   │   ├── page.js
+│   │   │   └── [id]/
+│   │   │       └── page.js
+│   │   └── api/
+│   │       └── [...]/
+│   ├── components/            # Reusable components
+│   │   ├── ui/                # UI components
+│   │   │   ├── Button.js
+│   │   │   ├── Card.js
+│   │   │   ├── Input.js
+│   │   │   ├── Table.js
+│   │   │   └── ...
+│   │   ├── layout/            # Layout components
+│   │   │   ├── Navbar.js
+│   │   │   ├── Sidebar.js
+│   │   │   └── Footer.js
+│   │   └── modules/           # Feature-specific components
+│   │       ├── inventory/
+│   │       ├── personnel/
+│   │       └── maintenance/
+│   ├── lib/                   # Utility functions and hooks
+│   │   ├── mongodb.js         # MongoDB connection
+│   │   └── utils.js
+│   ├── hooks/                 # Custom React hooks
+│   │   └── useAuth.js
+│   ├── models/                # MongoDB models
+│   │   ├── Weapon.js
+│   │   ├── Ammunition.js
+│   │   ├── Personnel.js
+│   │   └── Maintenance.js
+│   └── styles/                # Global styles
+│       └── globals.css
+└── tailwind.config.js         # Tailwind CSS configuration
